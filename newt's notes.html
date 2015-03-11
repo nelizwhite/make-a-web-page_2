@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- This is an HTML comment -->
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="newt-style.css">
+    <title>Newt's Notes</title>
+  </head> 
+  <body>
+    <div class="TOC">
+      <h1> Table of Contents</h1>
+      <ol>
+        <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+          <ul>
+            <li><a href="#lesson-1-1">How the Web Works</a></li>
+            <li><a href="#lesson-1-2">HTML</a></li>
+            <li><a href="#lesson-1-3">HTML Tags, Elements and Attributes</a></li>
+            <li><a href="#lesson-1-4">Inline vs. Block</a></li>
+            <li><a href="#lesson-1-5">Why Computers are Stupid</a></li>
+          </ul>
+        </li>
+        <li><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a>
+          <ul>
+            <li><a href="#lesson-2-1">HTML vs CSS</a></li>
+            <li><a href="#lesson-2-2">HTML as a Tree Like Structure</a></li>
+            <li><a href="#lesson-2-3">Indented HTML and Boxes</a></li>
+            <li><a href="#lesson-2-4">Text Editors</a></li>
+          </ul>
+        </li>
+        <li><a href="#lesson-3">Lesson 3: Adding HTML to CSS</a>
+          <ul>
+            <li><a href="#lesson-3-1">The Importance of Avoiding Repetition</a></li>
+            <li><a href="#lesson-3-2">CSS</a></li>
+          </ul> 
+        </li>
+      </ol>
+    </div>          
+    
+    <h1>Key Concepts</h1>
+    
+    <div class="lesson">
+      <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+      <div class="concept" id="lesson-1-1">
+        <div class="concept-title">
+         How the Web Works
+        </div>
+        <div class="concept-description">
+         <p>    
+          SERVERS host massive amounts of information. The internet is the platform by which individuals can access this information from their <em>browsers.</em> When an inidividual types in a search into their browser, their computer sends an <em>HTTP request</em> to a server. The server then identifies the corresponding HTML document and relays it to the individual's web browser, which interprets the page and displays it on the user's screen. <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496"> Click here</a> for a video that explains this process in detail.
+         </p>
+       </div>
+      </div>
+      <div class="concept" id="lesson-1-2">
+        <div class="concept-title">
+          HTML
+        </div>
+        <div class="concept-description">
+          <p>
+            HTML, or Hypertext Markeup Language, is the <b>glue</b> that holds everything together and is the <em>main protocol of the web.</em> An HTML document contains text content and markup (tags/attributes that modify how the text looks.) <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340">This video</a> gives a good overview of HTML.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-1-3">
+        <div class="concept-title">
+        HTML Tags, Elements and Attributes
+        </div>
+        <div class="concept-description">
+          <p>
+            An HTML document is made up of HTML elements. An element is defined as everything within a set of opening and closing tags. The tag tells the browser how to display content. <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">This video</a> goes into detail about the distinction between an element and a tag.             
+            An <b>ATTRIBUTE</b> is a property of an  HTML element. <em>HREF</em> is the <b>attribute</b> used to add a URL link in the anchor tag, for instance. 
+          </p>
+        </div>
+       </div>
+       <div class="concept" id="lesson-1-4">
+        <div class="concept-title">
+            INLINE VS. BLOCK
+        </div>
+        <div class="concept-description">
+         <p>
+          HTML elements are categorized as either inline or block.
+          Block elements form an invisible box around the content. Some examples of inline elements are the p, em, b, h1, h2 (all the way up to h6,) and a tags. Some examples of block elements are the div and span tags.
+         </p>
+        </div>
+       </div>
+       <div class="concept" id="lesson-1-5">
+        <div class="concept-title">
+          WHY COMPUTERS ARE STUPID
+        </div>
+        <div class="concept-description">
+          <p>
+            Computers are stupid because they interpret code literally, leaving little room for small mistakes and typos. Forgetting to add a closing bracket, for instance, can change the way an entire webpage looks.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="lesson">
+        <h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+      <div class="concept" id="lesson-2-1">
+        <div class="concept-title">
+                  HTML vs. CSS
+        </div>
+        <div class="concept-description">
+          <p>
+            HTML and CSS are languages that the browser reads and then turns into a visual representation on the page. HTML controls <b>structure and content</b> and CSS controls <em>style</em>.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-2-2">
+        <div class="concept-title">
+             HTML as "tree like structure"
+        </div>
+        <div class="concept-description">
+          <p>
+            HTML is defined as being a tree like structure because elements can have other elements inside of them..thus the concept of <em>inheritence</em>. Embedded elements will inherit the properties of the parent element. When programmers talk about "DOM" they're referring to the structure of a page.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-2-3">
+        <div class="concept-title">
+            Indented HTML and Boxes
+        </div>
+        <div class="concept-description">
+          <p>
+            When you read an HTML document, you see a wave of indentations on the left side of the page. The more intended and HTML element is, the more deeply nested its corresponding box is.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-2-4">
+        <div class="concept-title">
+           Text Editors
+        </div>
+        <div class="concept-description">
+          <p>
+            Programmers use text editors to write code. These are meant to make the process easier. They will, for instance add the closing tag automatically so that the programmer doesn't have to write it out.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="lesson">
+      <h2 id="lesson-3">Lesson 3: Adding CSS to HTML</h2>
+        <div class="concept" id="lesson-3-1">
+          <div class="concept-title">The Importance of Avoiding Repetition</div>
+          <div class="concept-description">
+            <p>
+              It is important for programmers to avoid repetition for a myriad of reasons. Repetition makes the task of fixing errors all the more tedious and time consuming, as the programmer will have to change the code over and over again. Less repetition means more efficiency. 
+              Also, avoiding repetition helps with code clarity and consistency. By grouping divs into common classes, for intance, the programmer can make <em>one</em> style change that will affect all the corresponding HTML elements as opposed to making the change many times.
+            </p>
+          </div>
+        </div>
+        <div class="concept" id="lesson-3-2">
+          <div class="concept-title">CSS</div>
+          <div class="concept-description">
+            <p>
+              CSS stands for Cascading Style Sheets. CSS allows programmers to add to style to HTML. By assigning a class name to a group of similar HTML elements, style can be applied to all the members of that class.
+            </p>
+          </div>
+        </div>
+      </div>
+   </body>
+</html>
+            
+          
+         
